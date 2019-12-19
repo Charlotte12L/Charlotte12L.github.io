@@ -62,7 +62,7 @@ if (!doNotTrack) {
 
 <p><img class="profile-picture" src="Xingyu.JPG"></p>
 <p>I'm currently a senior undergraduate student at the Department of Biomedical Engineering(Biomedical Imaging Track), Shanghai Jiao Tong University (SJTU)</a>.
-	I am interested in <i>machine learning, data science, computer vision and their applications in healthcare<i>.
+	I am interested in <i>machine learning, data science, computer vision and their applications in healthcare</i>.
 </p>
 
 
@@ -80,6 +80,17 @@ if (!doNotTrack) {
 <p><br></p>
 
 <h2 id="Research">Research</h2>
+
+<script>
+function absINS() {
+    var x = document.getElementById("abs-ins");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
 
 <script>
 function absMITO() {
@@ -180,7 +191,16 @@ function absCUMCM() {
 }
 </script>
 
-
+<p><strong>Intrinsic Relevant Convolution for Segmentation</strong>
+<br>
+Advisor: <a href="https://vcg.seas.harvard.edu/people">Prof. Hanspeter Pfister</a>
+<br>
+[<a id="abs-ins-button" onclick="absINS()">Summary</a>]</p>
+<div id="abs-ins" style="display:none;">
+<blockquote> We proposed a weakly-supervised method to leverage images’ intrinsic statistics for segmentation tasks
+This work is targeted at the top-tier computer vision conference ECCV 2020 and I will be the first-author.
+</blockquote>
+</div>
 
 <p><strong>Large-scale Mitochondria Segmentation</strong>
 <br>
