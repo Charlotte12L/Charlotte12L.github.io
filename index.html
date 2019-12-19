@@ -17,7 +17,7 @@
 	<meta name="og:title" content="">
 	<meta name="og:description" content="">
 	
-	<meta name="og:url" content="https://xufengcai.com/">
+	<meta name="og:url" content="https://charlotte12l.github.io/">
 	<meta name="og:site_name" content="">
 	<meta name="og:type" content="personal webpage">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -48,8 +48,6 @@ if (!doNotTrack) {
 	
 	<div style="text-align: bottom">
 		<a href="https://charlotte12l.github.io/" style="float: left;" class="namelogo">Hi, I'm Xingyu</a>
-	
-	<a href="" style="color:#777; float: right">Reading List</a>
 	<a href="https://charlotte12l.github.io/Resources/" style="color:#777; float: right">Resources&nbsp;&nbsp;</a>
 	<a href="https://charlotte12l.github.io/cv.pdf" style="color:#777; float: right">CV&nbsp;&nbsp;</a>
 	
@@ -80,8 +78,8 @@ if (!doNotTrack) {
 <h2 id="Research">Research</h2>
 
 <script>
-function absCBO() {
-    var x = document.getElementById("abs-consensus");
+function absMITO() {
+    var x = document.getElementById("abs-mito");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
@@ -91,8 +89,52 @@ function absCBO() {
 </script>
 
 <script>
-function absDGM() {
-	var x = document.getElementById("abs-generative");
+function absSK() {
+	var x = document.getElementById("abs-skeleton");
+	if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+}
+</script>
+
+<script>
+function absLung() {
+	var x = document.getElementById("abs-lung");
+	if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+}
+</script>
+
+<script>
+function absBrain() {
+	var x = document.getElementById("abs-brain");
+	if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+}
+</script>
+
+<script>
+function absRad() {
+	var x = document.getElementById("abs-rad");
+	if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+}
+</script>
+
+<script>
+function absIntel() {
+	var x = document.getElementById("abs-intel");
 	if (x.style.display === "none") {
 		x.style.display = "block";
 	} else {
@@ -113,8 +155,19 @@ function absSUM() {
 </script>
 
 <script>
-function absICM() {
-	var x = document.getElementById("abs-icm");
+function absMCM() {
+	var x = document.getElementById("abs-mcm");
+	if (x.style.display === "none") {
+		x.style.display = "block";
+	} else {
+		x.style.display = "none";
+	}
+}
+</script>
+
+<script>
+function absCUMCM() {
+	var x = document.getElementById("abs-cumcm");
 	if (x.style.display === "none") {
 		x.style.display = "block";
 	} else {
@@ -124,13 +177,14 @@ function absICM() {
 </script>
 
 
-<p><strong>3D Mitochondria Segmentation</strong>
+
+<p><strong>Large-scale Mitochondria Segmentation</strong>
 <br>
 Advisor: <a href="https://vcg.seas.harvard.edu/people">Prof. Hanspeter Pfister</a>& <a href="https://lichtmanlab.fas.harvard.edu/people-terms/faculty">Prof. Jeff Lichtman</a>
 <br>
-[<a id="abs-consensus-button" onclick="absCBO()">Summary</a>], <a href="https://github.com/charlotte12l/EM-pipeline-mito">GitHub</a>]</p>
-<div id="abs-consensus" style="display:none;">
-<blockquote>We develop deep learning methods to segment mitochondria from >1TB Mammalian Brain Tissue Electrical Microscopy(EM) images.
+[<a id="abs-mito-button" onclick="absMITO()">Summary</a>, <a href="https://github.com/charlotte12l/EM-pipeline-mito">GitHub</a>]</p>
+<div id="abs-mito" style="display:none;">
+<blockquote>I developed deep learning methods to segment mitochondria from >1TB Mammalian Brain Tissue Electrical Microscopy(EM) images.
 	This work will be submitted to the top-tier biomedical journal IEEE TMI soon.
 	For more illustration, please click the GitHub link above.
 </blockquote>
@@ -141,61 +195,118 @@ Advisor: <a href="https://vcg.seas.harvard.edu/people">Prof. Hanspeter Pfister</
 <br>
 Advisor: <a href="https://vcg.seas.harvard.edu/people">Prof. Hanspeter Pfister</a>& <a href="https://lichtmanlab.fas.harvard.edu/people-terms/faculty">Prof. Jeff Lichtman</a>
 <br>
-[<a id="abs-generative-button" onclick="absDGM()">abstract</a>, <a href="https://github.com/zephyr-cai/molecular_generation">code</a>]</p>
-<div id="abs-generative" style="display:none;">
-<blockquote> We proposed a new deep framework of auto-regressive graphical generative models for 
-		molecular graph generation with ideas of node degree constraints and subgraph generating tokens.</blockquote>
+[<a id="abs-skeleton-button" onclick="absSK()">Summary</a>, <a href="https://github.com/charlotte12l/NeuronShapeAnalysis">GitHub</a>]</p>
+<div id="abs-skeleton" style="display:none;">
+<blockquote> I used skeletonization and data analytics to evaluate neuroscience hypothesis with 3D neuron segmented volumes.
+		For more illustration, please click the GitHub link above.</blockquote>
 </div>
 
-<p><strong>Ealier Projects in Machine Learning and Deep Learning</strong>
-<br>
-[<a href="./profiles/research.pdf">link</a>]</p>
 
+
+<p><strong>3D Lung Nodule Segmentation</strong>
+<br>
+Advisor: <a href="https://scholar.google.com/citations?user=eUbmKwYAAAAJ&hl=zh-TW">Prof. Bingbing Ni</a>
+<br>
+[<a id="abs-lung-button" onclick="absLung()">Summary</a>, <a href="https://github.com/charlotte12l/3D-Lung-Nodule-Segmentation">GitHub</a>]</p>
+<div id="abs-lung" style="display:none;">
+<blockquote> I used 2D CNN combined with Temporal Shift Module to match the performance of 3D CNN in 3D Lung Nodule Segmentation task.
+		For more illustration, please click the GitHub link above.</blockquote>
+</div>
+
+<p><strong>Brain Multi-class Segmentation </strong>
+<br>
+Advisor: <a href="https://scholar.google.com/citations?user=m6ZNDewAAAAJ&hl=zh-CN">Prof. Qian Wang</a>
+<br>
+[<a id="abs-brain-button" onclick="absBrain()">Summary</a>, <a href="https://github.com/charlotte12l/UNet-Brain-Segmentation">GitHub</a>]</p>
+<div id="abs-brain" style="display:none;">
+<blockquote> I used UNet to segment brain for  Parkinson’s diagnosis.
+		For more illustration, please click the GitHub link above.</blockquote>
+</div>
+
+<p><strong>Radiomics Image Analysis System Design </strong>
+<br>
+Advisor: <a href="https://scholar.google.com/citations?user=m6ZNDewAAAAJ&hl=zh-CN">Prof. Qian Wang</a>
+<br>
+[<a id="abs-rad-button" onclick="absRad()">Summary</a>, <a href="https://github.com/charlotte12l/RadiomicsImageAnalysisSystem">GitHub</a>]</p>
+<div id="abs-rad" style="display:none;">
+<blockquote> I build a system which can extract, analyze, and store the high-dimensional Radiomics ​features of images. I also used Web Scrawler and Visualization Toolkits (e.g. basemap) to investigate cervical cancer background.
+		For more illustration, please click the GitHub link above.</blockquote>
+</div>
+
+<h2 id="work">Work</h2>
+<p><strong>Deep Learning Internship at Intel </strong>
+<br>
+<a href="https://www.intel.com/content/www/us/en/internet-of-things/overview.html">Intel Internet of Things Group China, Shanghai</a>
+<br>
+[<a id="abs-intel-button" onclick="absIntel()">Summary</a>]</p>
+<div id="abs-intel" style="display:none;">
+<blockquote> We developed video analytics products for a wide variety of domains such as industrial and healthcare sectors.</blockquote>
+</div>
 
 <h2 id="contest">Contests</h2>
-<p><strong>AI Solution for In Vitro Diagnostics and Pharmaceutical Business</strong>
+<p><strong>Modeling Opioid Crisis Based on Cellular Automata and Chi-Square Test</strong>
 <br>
-<a href="https://www.facebook.com/events/shanghai-advanced-institute-of-finance-master-of-finance/2019-saif-mf-international-youth-leadership-finance-summit/326413831484071/">International Youth Leadership Finance Summit</a>, 
-<a href="http://en.saif.sjtu.edu.cn/">SAIF</a>, 2019
+<a href="http://www.mathmodels.org/Problems/2019/MCM-C/2019_MCM_Problem_C.pdf">The Mathematical Contest in Modeling - Problem C</a>,
+<a href="https://www.comap.com/">COMAP</a>, 2019
 <br>
-[<a id="abs-summit-button" onclick="absSUM()">abstract</a>, <a href="./contest/2019IYLFS_slide.pdf">slides</a>]</p>
-<div id="abs-summit" style="display:none;">
-<blockquote>We designed AI solutions for a real health company <i>Haiershi</i> to its in vitro diagnostics and pharmaceutical business. 
-	We also presented a roadshow to the investors in order to seek equity financing in the summit.
-</blockquote>
-</div>
-
-<p><strong>Climate-based Fragility Measurement Model for Regions in the World</strong>
-<br>
-<a href="https://www.comap.com/undergraduate/contests/index.html">The Interdisciplinary Contest in Modeling</a>, 
-<a href="https://www.comap.com/">Comap</a>, 2018
-<br>
-[<a id="abs-icm-button" onclick="absICM()">abstract</a>, <a href="./contest/2018ICM.pdf">report</a>]</p>
-<div id="abs-icm" style="display:none;">
+[<a id="abs-mcm-button" onclick="absMCM()">Summary</a>, <a href="./contest/MCM2019.pdf">Report</a>]</p>
+<div id="abs-mcm" style="display:none;">
 <blockquote>
-		We designed the SPEC index to evaluate regional fragility concerning effects of climate change, and formulated the self-regulatory factor to model the tipping-point of regional stabilities.
-		We futher collected and cleaned relevant data of 178 countries worldwide to test our model. Our SPEC score corresponded to the traditional Fragile State Index but stressed the effects of climate change.
-		Eventually our team was designated as Outstanding Winner (top 0.16% in over 20,000 teams in the world).
+		We designed Opioid Spread Model based on  Cellular Automata to simulate the spread of opioid between and in five states in U.S.
+		We futher used Chi-Square tests to identify the important socio-economic determinants of drug abuse.
+		Eventually our team was designated as Finalist Winner of this contest (top 0.25% in 25,370 teams).
+</blockquote>
+</div>
+
+<p><strong>Heat Conduction Model Based on Finite Difference Method</strong>
+<br>
+<a href="http://en.mcm.edu.cn/html_en/node/b4c6a41446021a5b6349345aa32dbee0.html">Contemporary Undergraduate Mathematical Contest in Modeling - Problem A</a>,
+<a href="http://www.csiam.org.cn/">CSIAM</a>, 2018
+<br>
+[<a id="abs-cumcm-button" onclick="absCUMCM()">Summary</a>, <a href="./contest/CUMCM2018.pdf">Report</a>]</p>
+<div id="abs-cumcm" style="display:none;">
+<blockquote>
+	We employed Finite Difference Method model the heat distribution data in a multilayer high temperature resistant coverall.
+	Furthermore, we used Bisection to optimize a single layer of the overalls, and applied the Genetic Algorithm to find the optimal thickness for two layers.
+	Eventually our team Won National Second Prize at this contest (top 4% in 38,573 teams)
 </blockquote>
 </div>
 
 
-<h2 id="explorations">Exploration</h2>
-<p><strong>Adaptive Moving Mesh Method for Blow-up Equations with e<sup>μ</sup> Nonlinearity</strong>
+<h2 id="coursework">Coursework</h2>
+<p><strong>Filtered Backprojection Algorithm Implementation</strong>
 <br>
-Coursework for <i>Numerical Methods for Differential Equations</i>, Spring 2019
+Coursework for <i>Biomedical Image Processing II</i>, Spring 2019
 <br>
-[<a href="./explorations/2019NumPDE.pdf">report</a>]</p>
+[<a href="https://github.com/charlotte12l/FilteredBackprojection">GitHub</a>]</p>
+
+<p><strong>CSAPP-CacheLab: Understanding Cache Memories </strong>
+<br>
+Coursework for <i>Computer System Architecture</i>, Spring 2019
+<br>
+[<a href="https://github.com/charlotte12l/UnderstandingCacheMemories">GitHub</a>]</p>
+
+<p><strong>Game 2048 Agent based on AI </strong>
+<br>
+Coursework for <i>Machine Learning</i>, Fall 2019
+<br>
+[<a href="https://github.com/charlotte12l/2048-api">GitHub</a>]</p>
+
+<p><strong>Fundus Image Segmentation System </strong>
+<br>
+Coursework for <i>Biomedical Image Processing I</i>, Fall 2019
+<br>
+[<a href="https://github.com/charlotte12l/Fundus-Vascular-Segmentation">GitHub</a>]</p>
 
 
 <h2 id="hobbies">Hobbies</h2>
-<p>In my free time, I enjoy basketball, photography, and reading books.</p>
+<p>I love travels, sailing, movies, music, books, sea and snow.</p>
 
 </p>
 </div>
 
 <footer>
-	<p>&copy; 2019 Xufeng Cai. A fork from I. Chen.<!--All rights reserved.--></p>
+	<p>&copy; 2019 Xingyu Liu. </p>
 </footer>
 </body>
 </html>
