@@ -1,2 +1,3 @@
-# charlotte12l.github.io
-Personal website
+# Xingyu Liu
+
+This is my personal website
